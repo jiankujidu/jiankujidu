@@ -17,7 +17,7 @@
 3、打开防火墙对应端口
 4、（可选）进入docker，安装依赖。
 
-####关于小号
+#### 关于小号
 
 建议：玩毛不要用自己常用手机，不然垃圾短信一堆
 
@@ -28,7 +28,8 @@
 * 电信：天翼小号app（已下线）
 
 
-####在线请求头转JSON
+
+#### 在线请求头转JSON
 
 我把我已知的都列举出来了，也欢迎投更好用的
 
@@ -38,9 +39,9 @@
 * [wejson](https://wejson.cn/header2json/)
 
 
-疑问及交流
+#### 疑问及交流
 
-使用中仍会遇到些小的问题，请有疑问的同学在电报上问我吧，尽力帮你们答疑
+使用中仍会遇到些小的问题，请有疑问的同学在QQ群上问吧，尽力帮你们答疑
 
 个人QQ群：[@641307462](https://qm.qq.com/cgi-bin/qm/qr?k=B5meSMnKmXOIACK9VyWTYjIxdLWpSbRm&authKey=EMQROjU6NjgLUwmHnYJF052JFdpfBq7mB+nNuC5JRxk5JZyFbbFzgT1fSzAq4vHB&noverify=0)
 
