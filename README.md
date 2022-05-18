@@ -42,7 +42,7 @@
 
 使用中仍会遇到些小的问题，请有疑问的同学在QQ群上问吧，尽力帮你们答疑
 
-个人QQ群：[@641307462](https://qm.qq.com/cgi-bin/qm/qr?k=B5meSMnKmXOIACK9VyWTYjIxdLWpSbRm&authKey=EMQROjU6NjgLUwmHnYJF052JFdpfBq7mB+nNuC5JRxk5JZyFbbFzgT1fSzAq4vHB&noverify=0)
+个人QQ群:[641307462](https://qm.qq.com/cgi-bin/qm/qr?k=B5meSMnKmXOIACK9VyWTYjIxdLWpSbRm&authKey=EMQROjU6NjgLUwmHnYJF052JFdpfBq7mB+nNuC5JRxk5JZyFbbFzgT1fSzAq4vHB&noverify=0)
 
 
 欢迎交流学习，反正我还是菜鸡
