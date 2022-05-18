@@ -25,7 +25,22 @@
 日常任务，先连续5天1块，一天大概0.1左右（没人头），一个人头5元（一天只能到账1元）。   
 全部都是到1元自动提现
 
+下载：https://h5.imkaka.com/fep/fun-kaka/invitation.html?code=bmuplqo
 
+邀请码：bmuplqo
+
+填写邀请码自动获得5元，每天提现1元到支付宝，提现需要实名认证+人脸
+脚本自动提现和投票，投票次数每天送一次，发2条动态额外送2次(需要手动)
+把任意api.imkaka.com捉包头里的Cookie(viewchat_access_token=xxxxxxxxx 这个)填到kakaCookie里，多账户@隔开
+
+拉库:
+```sh
+ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/kaka.js
+```
+定时:
+```sh
+0 0 12 * * ?  * * *
+```
 
 ##### 全球购骑士卡 
 一天1毛多吧，小小毛   
@@ -47,4 +62,16 @@
 毛越来越少提现需要抢
 看脚本内说明，部分号不能做，实名微信只能做一个   
 
+###快手极速版（yml修改版）
+
+变量格式:  ksjsb_data= xxxxx 多个账号用 @分割 或者 换行分割
+定时:
+```sh
+0-59/30 2-15 * * *
+```
+
+拉库:
+```sh
+ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/ymlksjsb.js
+```
 
