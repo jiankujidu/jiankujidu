@@ -17,6 +17,35 @@
 3、打开防火墙对应端口
 4、（可选）进入docker，安装依赖。
 
+####关于小号
+
+建议：玩毛不要用自己常用手机，不然垃圾短信一堆
+
+* 移动：和多号app（5元/月）
+* 联通：沃小号app（5元/月）
+* 联通&腾讯：微小号（小程序 10元/月）
+* 联通&阿里：阿里小号app（已下线，续期的可以继续用）
+* 电信：天翼小号app（已下线）
+
+
+####在线请求头转JSON
+
+我把我已知的都列举出来了，也欢迎投更好用的
+
+
+* [uutool](https://uutool.cn/header2json/)
+
+* [wejson](https://wejson.cn/header2json/)
+
+
+疑问及交流
+
+使用中仍会遇到些小的问题，请有疑问的同学在电报上问我吧，尽力帮你们答疑
+
+个人QQ群：[@641307462](https://qm.qq.com/cgi-bin/qm/qr?k=B5meSMnKmXOIACK9VyWTYjIxdLWpSbRm&authKey=EMQROjU6NjgLUwmHnYJF052JFdpfBq7mB+nNuC5JRxk5JZyFbbFzgT1fSzAq4vHB&noverify=0)
+
+
+欢迎交流学习，反正我还是菜鸡
 
 ### 脚本对应项目及其方法
 
