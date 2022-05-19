@@ -11,7 +11,7 @@ env_dist = os.environ
 # 获取环境变量
 _Cookie = env_dist.get("ksjsbCookie")
 # 分割环境变量
-Cookies = _Cookie.split("&")
+Cookies = _Cookie.split("@")
 # 协议头
 
 
