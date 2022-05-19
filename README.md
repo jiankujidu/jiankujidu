@@ -103,10 +103,10 @@ ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankuji
 ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/ymlksjsb.js
 ```
 
-# 快手极速版低保版
+# ksjsb乞丐版
 魔改各路大佬的,已完成每日签到,开宝箱和分享3000币,每日3000币起,测试约为3000-8000币
-变量名ksjsbCookie 多个用@分割，需要完整cookies，青龙单容器快手完整cookies只能放63个。建议启用60个,否则会报错
-
+变量名ksjsb_ck 多个用@分割，需要完整cookies，青龙单容器快手完整cookies只能放63个。建议启用60个,否则会报错
+整合了周周助力
 拉库:
 ```sh
 ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/ksjsb.py
