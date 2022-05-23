@@ -1,168 +1,120 @@
-<div align="center"> 
-<h1 align="center">𝘧𝘳𝘦𝘦𝘯𝘰𝘮-𝘱𝘺</h1>
+# 青龙脚本
+    
+<img width="150" src="https://z3.ax1x.com/2021/11/18/I7MpAe.png" alt="Img">
 
-<a href="https://github.com/Oreomeow/freenom-py/stargazers"><img src="https://img.shields.io/github/stars/Oreomeow/freenom-py?color=9cf&logo=Riseup&logoColor=9cf&style=for-the-badge" alt="GitHub stars"></a>
-<a href="https://github.com/Oreomeow/freenom-py/network"><img src="https://img.shields.io/github/forks/Oreomeow/freenom-py?color=9cf&style=for-the-badge" alt="GitHub forks"></a>
-<a href="https://t.me/joinchat/muGNhnaZglQ0N2Q1"><img src="https://img.shields.io/badge/talk-Telegram-9cf?logo=Telegram&style=for-the-badge" alt="Telegram"></a>
-<a href="https://github.com/Oreomeow/freenom-py/issues"><img src="https://img.shields.io/github/issues/Oreomeow/freenom-py?color=yellow&style=for-the-badge" alt="GitHub issues"></a>
-<a href="https://github.com/Oreomeow/freenom-py/commits"><img src="https://img.shields.io/github/last-commit/Oreomeow/freenom-py?color=orange&logo=GitHub&style=for-the-badge" alt="GitHub last commit"></a>
 
-</div>
-  
+* # 介绍
+个人存储的青龙脚本，都是从网上大神那边拉来的，基本不提供维护
+多撸易黄，每个脚本不保证时效性。
 
-## 项目描述 🔑
+* 推荐配置
+推荐试用nas、路由器、云服务器、轻量云服务器。
+有闲置服务器的可以直接上，新购买的话可以看看收益能否跑得过服务器金额
+尽量选择国内服务器，部分任务只有国内才能获取，国外可能跑不动。
+基本上就是有网就行，能装docker能跑青龙面板就行。
 
-Freenom 自动续期域名的脚本
+* # 事前准备
+1、安装docker
 
-## 项目部署 🥳
+2、安装青龙面板
 
-Python 运行环境
-* Windows、Linux、青龙、elecV2P 等
+以上参考官方
 
-## 使用说明 🕹
+3、打开防火墙对应端口
 
-<h3 align="center">🌏 通用版</h3>
+4、（可选）进入docker，安装依赖。
 
-PC、VPS 等可直接运行，无通知变量
+* # 关于小号
 
+建议：玩毛不要用自己常用手机，不然垃圾短信一堆
+
+* 移动：和多号app（5元/月）
+* 联通：沃小号app（5元/月）
+* 联通&腾讯：微小号（小程序 10元/月）
+* 联通&阿里：阿里小号app（已下线，续期的可以继续用）
+* 电信：天翼小号app（已下线）
+
+
+* # 在线请求头转JSON
+
+我把我已知的都列举出来了，也欢迎投更好用的
+
+
+* [uutool](https://uutool.cn/header2json/)
+
+* [wejson](https://wejson.cn/header2json/)
+
+
+* # 疑问及交流
+
+使用中仍会遇到些小的问题，请有疑问的同学在QQ群上问吧，尽力帮你们答疑
+
+个人QQ群:[641307462](https://qm.qq.com/cgi-bin/qm/qr?k=B5meSMnKmXOIACK9VyWTYjIxdLWpSbRm&authKey=EMQROjU6NjgLUwmHnYJF052JFdpfBq7mB+nNuC5JRxk5JZyFbbFzgT1fSzAq4vHB&noverify=0)
+
+
+欢迎交流学习，反正我还是菜鸡
+
+* # 脚本对应项目及其方法
+
+
+##### 咔咔
+日常任务，先连续5天1块，一天大概0.1左右（没人头），一个人头5元（一天只能到账1元）。   
+全部都是到1元自动提现
+
+下载：https://h5.imkaka.com/fep/fun-kaka/invitation.html?code=bmuplqo
+
+邀请码：bmuplqo
+
+填写邀请码自动获得5元，每天提现1元到支付宝，提现需要实名认证+人脸
+脚本自动提现和投票，投票次数每天送一次，发2条动态额外送2次(需要手动)
+把任意api.imkaka.com捉包头里的Cookie(viewchat_access_token=xxxxxxxxx 这个)填到kakaCookie里，多账户@隔开
+
+拉库:
 ```sh
-wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
+ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/kaka.js
 ```
-
+定时:
 ```sh
-python3 FNplus.py -u USERNAME -p PASSWORD
+0 0 12 * * ?  * * *
 ```
 
-`USERNAME` ：Freenom 用户名  
-`PASSWORD` ：Freenom 密码
+##### 全球购骑士卡 
+一天1毛多吧，小小毛   
+恢复了自动领金币的脚本，大概也就5分钱一天  
+整点看广告的需要sign暂未取得  
 
-<h3 align="center">🐉 青龙邮件版 📧</h3>
 
-1. 修改配置文件
+###### 九章头条
+看广告，一天3毛左右。屏蔽国外ip。0.3以外容易黑号，建议细水长流  
+  部署方案：脚本有写  
+ 
+##### 电视家
+现金天天再涨，一天也有个1元毛，  
 
+
+
+#### 腾讯自选股
+毛越来越少提现需要抢
+看脚本内说明，部分号不能做，实名微信只能做一个   
+
+# 快手极速版（yml修改版）
+
+变量格式:  ksjsb_data= xxxxx 多个账号用 @分割 或者 换行分割
+定时:
 ```sh
-## ql repo命令拉取脚本时需要拉取的文件后缀，直接写文件后缀名即可
-RepoFileExtensions="js py ts html"
+0-59/30 2-15 * * *
 ```
 
-2. 添加定时拉取任务并运行
-
-```
-ql repo https://github.com/Oreomeow/freenom-py.git "FN_extend.py" "" "utils|templates"
-```
-
-3. 安装依赖
-
+拉库:
 ```sh
-docker exec -it qinglong bash # 进入容器内
+ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/ymlksjsb.js
 ```
 
+# ksjsb乞丐版
+魔改各路大佬的,已完成每日签到,开宝箱和分享3000币,每日3000币起,测试约为3000-8000币
+变量名ksjsb_ck 多个用@分割，需要完整cookies，青龙单容器快手完整cookies只能放63个。建议启用60个,否则会报错
+整合了周周助力
+拉库:
 ```sh
-cd /ql/scripts
-wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/requirements.txt -O requirements.txt
-pip3 install -r requirements.txt
+ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/ksjsb.py
 ```
-
-4. 添加环境变量 [示例](https://github.com/Oreomeow/freenom-py/issues/1#issuecomment-903344952)
-
-* 可看[脚本注释](https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.py)
-* 参考[下方表格](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
-
-5. 运行一次 `FN_extend.py` 测试
-
-<h3 align="center">🪁 elecV2P 邮件版 📧</h3>
-
-TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E9%82%AE%E4%BB%B6%E7%89%88-)
-
-名称：Freenom 续期
-
-时间：cron定时 `25 7 */10 * *`
-
-任务：
-
-```
-https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FN_extend.js
-```
-
-<h3 align="center">🐉 青龙消息版 📱</h3>
-
-1. 面板添加定时任务，定时随意，运行
-
-```
-ql raw https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py
-```
-
-2. 添加[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-) [示例](https://github.com/Oreomeow/freenom-py/issues/1#issuecomment-903344952)
-
-3. 运行一次 `FNplus.py` 测试
-
-<h3 align="center">🪁 elecV2P 消息版 📱</h3>
-
-TASK -> 添加单个任务 -> 修改名称、时间、任务 -> JSMANAGE -> store/cookie 常量储存管理填写[环境变量](https://github.com/Oreomeow/freenom-py#%E6%B6%88%E6%81%AF%E7%89%88-)
-
-名称：Freenom 续期
-
-时间：cron定时 `25 7 */10 * *`
-
-任务：
-
-```
-https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.js
-```
-
-## 环境变量 🍒
-
-### 邮件版 📧
-
-| 变量 / key | 描述 |  示例 / value |
-| --- | --- |  --- |
-| FN_ID | Freenom 用户名 | 1234567890@gmail.com |
-| FN_PW | Freenom 密码 | 12345678 | 
-| MAIL_USER | 发件人邮箱用户名 |  address@vip.qq.com 或 123456@qq.com | 
-| MAIL_ADDRESS | 发件人邮箱地址 | address@vip.qq.com 或 123456@qq.com |
-| MAIL_PW | 发件人邮箱授权码 | xxxxxxxxxxxxxxxx 看下方链接 |
-| MAIL_HOST | 发件人邮箱服务器 | smtp.qq.com 不填默认为这个 |
-| MAIL_PORT | 邮箱服务器端口 |  465 不填默认为这个 |
-| MAIL_TO | 收件人邮箱可与发件人相同 | address@vip.qq.com 或 123456@qq.com |
-
-* 填写总参考
-
-> [如何设置POP3/SMTP的SSL加密方式？](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369)
-
-### 消息版 📱
-
-| 变量 / key | 描述 | 参考 / value |
-| --- | --- |  --- |
-| FN_ID | Freenom 用户名，多账号空格隔开| 1234567890@gmail.com  9876543210@enayu.com |
-| FN_PW | Freenom 密码，多账号空格隔开| 12345678 87654321 |
-| BARK | bark 设备码 | BARK 推送[使用](https://github.com/Sitoi/dailycheckin/issues/29)，填写 URL 即可，例如： `https://api.day.app/DxHcxxxxxRxxxxxxcm/` |
-| PUSH_KEY | Server 酱 | server 酱推送[官方文档](https://sc.ftqq.com/3.version)，填写 `SCKEY` 代码即可
-| TG_BOT_TOKEN | tg 机器人 | 申请 [@BotFather](https://t.me/BotFather) 的 Token，如 `10xxx4:AAFcqxxxxgER5uw` |
-| TG_USER_ID | tg 机器人 | 给 [@getidsbot](https://t.me/getidsbot) 发送 /start 获取到的纯数字 ID，如 `1434078534` |
-| TG_PROXY_IP | * tg 机器人代理 IP 地址 | 代理类型为 http，比如您代理是 `http://127.0.0.1:1080` ，则填写 `127.0.0.1` ，有密码例子: `username:password@127.0.0.1` |
-| TG_PROXY_PORT | * tg 机器人代理端口 | 代理端口号，代理类型为 http，比如您代理是 `http://127.0.0.1:1080` ，则填写 `1080` |
-| DD_BOT_TOKEN | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)，只需 `https://oapi.dingtalk.com/robot/send?access_token=XXX` 等于符号后面的 `XXX` |
-| DD_BOT_SECRET | 钉钉机器人 | 钉钉推送[官方文档](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)密钥，机器人安全设置页面，加签一栏下面显示的 `SEC` 开头的字符串, 注: 填写了 `DD_BOT_TOKEN` 和 `DD_BOT_SECRET` ，钉钉机器人安全设置只需勾选加签即可，其他选项不要勾选 |
-| QYWX_AM | 企业微信应用 | [参考文档](http://note.youdao.com/s/HMiudGkb)，依次填入 corpid, corpsecret, touser(注：多个成员ID使用 \| 隔开), agentid, media_id(选填，不填默认文本消息类型) |
-
-*\* 表示选填*
-
-* 调用模块
-
-> [notify.py](https://raw.githubusercontent.com/whyour/qinglong/master/sample/notify.py)
-
-## 查看通知 📮
-
-不出意外会收到一封关于域名续期的邮件或者 tg 等通知消息
-
-## 写在最后 🔚
-
-核心代码见 `utils/freenom.py`
-
-此项目核心接口参考 [Freenom-PHP](https://github.com/luolongfei/freenom) 
-
-**感谢不限于以下开发者**
-
-[@𝘴𝘩𝘶𝘢𝘪93](https://github.com/shuai93)
-
-[@𝘭𝘶𝘰𝘭𝘰𝘯𝘨𝘧𝘦𝘪](https://github.com/luolongfei)
