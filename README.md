@@ -53,6 +53,11 @@
 
 
 欢迎交流学习，反正我还是菜鸡
+* #拉库
+```sh
+ql repo https://ghproxy.com/https://github.com/jiankujidu/jiankujidu.git "" "" "sendNotify" ""
+
+```
 
 * # 脚本对应项目及其方法
 
