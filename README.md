@@ -57,7 +57,7 @@
 * # 脚本对应项目及其方法
 
 
-##### 咔咔
+* ##### 咔咔
 日常任务，先连续5天1块，一天大概0.1左右（没人头），一个人头5元（一天只能到账1元）。   
 全部都是到1元自动提现
 
@@ -78,26 +78,26 @@ ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankuji
 0 0 12 * * ?  * * *
 ```
 
-##### 全球购骑士卡 
+* ##### 全球购骑士卡 
 一天1毛多吧，小小毛   
 恢复了自动领金币的脚本，大概也就5分钱一天  
 整点看广告的需要sign暂未取得  
 
 
-###### 九章头条
+* ###### 九章头条
 看广告，一天3毛左右。屏蔽国外ip。0.3以外容易黑号，建议细水长流  
   部署方案：脚本有写  
  
-##### 电视家
+* ##### 电视家
 现金天天再涨，一天也有个1元毛，  
 
 
 
-#### 腾讯自选股
+* #### 腾讯自选股
 毛越来越少提现需要抢
 看脚本内说明，部分号不能做，实名微信只能做一个   
 
-#### 快手极速版（yml修改版）
+* #### 快手极速版（yml修改版）
 
 变量格式:  ksjsb_data= xxxxx 多个账号用 @分割 或者 换行分割
 定时:
@@ -110,7 +110,7 @@ ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankuji
 ql raw https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/jiankujidu/main/ymlksjsb.js
 ```
 
-#### ksjsb乞丐版
+* #### ksjsb乞丐版
 魔改各路大佬的,已完成每日签到,开宝箱和分享3000币,每日3000币起,测试约为3000-8000币
 变量名ksjsb_ck 多个用@分割，需要完整cookies，青龙单容器快手完整cookies只能放63个。建议启用60个,否则会报错
 整合了周周助力
